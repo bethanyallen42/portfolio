@@ -12,13 +12,15 @@ const App = () => {
             Bethany Allen
           </a>
           <button
-            className="navbar-toggler"
+            className="navbar-toggler collapsed d-flex d-md-none flex-column justify-content-around"
             data-bs-toggle="collapse"
             data-bs-target="#nav"
             aria-controls="nav"
             aria-label="Expand Navigation"
           >
-            <span className="navbar-toggler-icon"></span>
+            <span className="toggler-icon top-bar"></span>
+            <span className="toggler-icon middle-bar"></span>
+            <span className="toggler-icon bottom-bar"></span>
           </button>
           <div className="collapse navbar-collapse" id="nav">
             <ul className="navbar-nav ms-auto">
