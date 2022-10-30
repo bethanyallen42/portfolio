@@ -8,3 +8,13 @@
   background-size: cover;
   background-position: bottom;
 }
+
+.home-content {
+  color: #ffeadd;
+}
+
+.tech-logo {
+  width: 50px;
+  margin: 5px;
+  color: white;
+}
