@@ -10,6 +10,8 @@
 }
 
 .home-content {
+  font-family: "Nunito", sans-serif;
+  padding: 100px 200px 100px 200px;
   color: #ffeadd;
 }
 
@@ -17,4 +19,15 @@
   width: 50px;
   margin: 5px;
   color: white;
+}
+
+@media (max-width: 850px) {
+  .home-content {
+    padding: 100px;
+  }
+}
+@media (max-width: 425px) {
+  .home-content {
+    padding: 50px;
+  }
 }
