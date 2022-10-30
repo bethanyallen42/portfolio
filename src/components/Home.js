@@ -4,9 +4,12 @@ import "../style/Home.css";
 const Home = () => {
   return (
     <>
-      <div className="top-triangle"></div>
-      <div className="this">Home</div>
-      <div className="bottom-triangle"></div>
+      <div className="home-wrapper">
+        <div className="home-content">
+          <h1>Bethany Allen</h1>
+          <div></div>
+        </div>
+      </div>
     </>
   );
 };
