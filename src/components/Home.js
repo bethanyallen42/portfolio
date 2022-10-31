@@ -11,11 +11,10 @@ import postgres_logo from "../icons/postgresql_pink.png";
 
 const Home = () => {
   return (
-    <>
-      <div className="home-wrapper">
-        {/* <div className="home-content">
-          
-          <div>
+    <div className="home-wrapper">
+      <div className="home-content d-flex justify-content-center">
+        <h1>BETHANY ALLEN</h1>
+        {/*<div>
             <img src={js_logo} alt="JavaScript logo" className="tech-logo" />
             <img src={react_logo} alt="React logo" className="tech-logo" />
             <img src={node_logo} alt="Node logo" className="tech-logo" />
@@ -26,10 +25,9 @@ const Home = () => {
             />
             <img src={html_logo} alt="HTML5 logo" className="tech-logo" />
             <img src={css_logo} alt="CSS3 logo" className="tech-logo" />
-          </div>
-        </div> */}
+          </div>*/}
       </div>
-    </>
+    </div>
   );
 };
 

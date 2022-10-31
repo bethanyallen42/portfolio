@@ -3,16 +3,20 @@
   width: 100vw;
   max-width: 2560px;
   height: calc(100vh - 50px);
-  background-image: url("../../public/images/background_with_name.svg");
+  background-image: url("../../public/images/background_with_name.2.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
 }
 
-.home-content {
+.home-content h1 {
   font-family: "Nunito", sans-serif;
-  padding: 100px 200px 100px 200px;
+  font-size: 48px;
+  margin-top: 50px;
+  border: 2px solid var(--accent2);
+  padding: 8px 15px;
   color: #ffeadd;
+  display: none;
 }
 
 .tech-logo {
@@ -21,13 +25,18 @@
   color: white;
 }
 
-@media (max-width: 850px) {
-  .home-content {
-    padding: 100px;
+@media (max-width: 768px) {
+  .home-wrapper {
+    background-image: url("../../public/images/background.svg");
+  }
+
+  .home-content h1 {
+    display: block;
   }
 }
+
 @media (max-width: 425px) {
-  .home-content {
-    padding: 50px;
+  .home-content h1 {
+    font-size: 32px;
   }
 }
