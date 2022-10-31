@@ -3,7 +3,7 @@
   width: 100vw;
   max-width: 2560px;
   height: calc(100vh - 50px);
-  background-image: url("../../public/images/background.svg");
+  background-image: url("../../public/images/background_with_name.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;

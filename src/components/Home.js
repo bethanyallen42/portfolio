@@ -13,8 +13,8 @@ const Home = () => {
   return (
     <>
       <div className="home-wrapper">
-        <div className="home-content">
-          <h1>Bethany Allen</h1>
+        {/* <div className="home-content">
+          
           <div>
             <img src={js_logo} alt="JavaScript logo" className="tech-logo" />
             <img src={react_logo} alt="React logo" className="tech-logo" />
@@ -27,7 +27,7 @@ const Home = () => {
             <img src={html_logo} alt="HTML5 logo" className="tech-logo" />
             <img src={css_logo} alt="CSS3 logo" className="tech-logo" />
           </div>
-        </div>
+        </div> */}
       </div>
     </>
   );
